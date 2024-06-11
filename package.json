@@ -1,0 +1,27 @@
+{
+  "name": "p5.js-sketch-gallery",
+  "version": "1.0.0",
+  "description": "p5 Sketch Gallery provides a platform to share, explore, and collaborate on p5.js sketches.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0",
+    "highlight.js": "^11.9.0"
+  },
+  "dependencies": {
+    "@chaitanyathakur/eslint-plugin-p5js": "^1.0.2",
+    "node": "^20.14.0"
+  },
+  "type": "module"
+}

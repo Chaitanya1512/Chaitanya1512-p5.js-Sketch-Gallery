@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family: "Roboto", "sans-serif";
+  font-size: 16px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  text-align: "left";
+  font-size: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+#main-link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: inherit;
+}
+
+p {
+  text-overflow: ellipsis;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#left-sidebar,
+#code-display,
+#output-display {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#left-sidebar {
+  font-weight: 500;
+  height: 100%;
+  bottom: 0;
+  border-right: 1px solid gray;
+}
+
+#logo {
+  padding: 24px;
+}
+
+#header {
+  color: #623083;
+  margin-top: 24px;
+  height: 100px;
+  width: 100%;
+  padding: 24px 32px;
+  border-bottom: #aaaaaa 1px solid;
+}
+
+.file-name {
+  margin: 0;
+}
+
+.author-name {
+  color: gray;
+  margin-top: 10px;
+}
+
+#pre {
+  padding: 32px;
+  margin: 0;
+}
+
+#output-display {
+  background: #222;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+#sketch-container {
+  position: relative;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+}
+
+#examples-list {
+  padding: 24px;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.selected {
+  background-color: #f2dbff;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.parent {
+  padding-top: 5px;
+  margin: 8px 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: #181713;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 0.7rem;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.no-child::before {
+  content: ">";
+
+  margin: 0 10px;
+  visibility: hidden;
+}
+
+ul,
+#myUL,
+li {
+  list-style-type: none;
+}
+
+.sketch {
+  margin: 5px 3px;
+  padding: 5px;
+  color: #371a4b;
+
+  font-weight: 500;
+}
+
+.nested {
+  padding-left: 25px;
+  color: #000;
+  margin: 0;
+}

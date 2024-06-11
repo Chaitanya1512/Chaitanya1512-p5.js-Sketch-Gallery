@@ -1,0 +1,42 @@
+categories:
+  - name: 3D
+    folders:
+      - name: Rotate Box
+        author: Chaitanya1512
+  - name: Animation
+    folders:
+      - name: Ball Bouncing
+        author: Chaitanya1512
+  - name: Data
+    folders:
+      - name: Word Frequency
+        author: Chaitanya1512
+  - name: Drawing
+    folders:
+      - name: Zoog
+        author: Chaitanya1512
+  - name: Geometry
+    folders: []
+  - name: Image Processing
+    folders:
+      - name: Threshold Filter
+        author: Chaitanya1512
+  - name: Interaction
+    folders:
+      - name: Draw
+        author: Chaitanya1512
+  - name: Math
+    folders:
+      - name: Fractal
+        author: Chaitanya1512
+  - name: Other
+    folders:
+      - name: ballbouncing
+  - name: Simulation
+    folders: []
+  - name: Sound
+    folders: []
+  - name: Typography
+    folders:
+      - name: Rotating Kinetic Typography
+        author: Chaitanya1512
