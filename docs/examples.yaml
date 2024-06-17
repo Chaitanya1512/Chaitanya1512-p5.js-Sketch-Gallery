@@ -1,37 +1,36 @@
 categories:
   - name: 3D
     folders:
-      - name: Rotate Box
+      - name: Box Spin
         author: Chaitanya1512
   - name: Animation
     folders:
-      - name: Ball Bouncing
+      - name: Bounce Ball
         author: Chaitanya1512
   - name: Data
     folders:
-      - name: Word Frequency
+      - name: Value Bubbles
         author: Chaitanya1512
   - name: Drawing
     folders:
       - name: Zoog
         author: Chaitanya1512
   - name: Geometry
-    folders: []
-  - name: Image Processing
     folders:
-      - name: Threshold Filter
+      - name: Abstract Triangle Pattern
         author: Chaitanya1512
+  - name: Image Processing
+    folders: []
   - name: Interaction
     folders:
-      - name: Draw
+      - name: QuickDraw
         author: Chaitanya1512
   - name: Math
     folders:
       - name: Fractal
         author: Chaitanya1512
   - name: Other
-    folders:
-      - name: ballbouncing
+    folders: []
   - name: Simulation
     folders: []
   - name: Sound

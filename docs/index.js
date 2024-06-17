@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init() {
-  fetch("examples.yaml")
+  fetch("./examples.yaml")
     .then((response) => response.text())
     .then(processYAML)
     .catch((error) => console.error("Error loading the examples:", error));
